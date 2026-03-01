@@ -75,6 +75,27 @@ python ytpgen_py_generator.py \
 - `--temp-folder`: Optional temp directory override
 - `--scale`: Optional FFmpeg scale override (e.g. `854:480`)
 
+
+## GUI UI (Tkinter)
+
+A Windows-friendly GUI wrapper is included:
+
+- `ytpgen_gui.py`
+
+Launch it with:
+
+```bash
+python ytpgen_gui.py
+```
+
+The UI provides:
+
+- Source/output browsing
+- Mode and format selectors
+- Duration, clip count, bitrate, BPM, and project settings
+- Effect toggles and metadata toggle
+- Live console log with start/stop controls
+
 ## Output Artifacts
 
 - Final rendered video in selected container/format
